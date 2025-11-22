@@ -119,6 +119,11 @@ function showNextPhoto() {
     currentIndex++;
 
     // 3. === Η ΛΟΓΙΚΗ ΠΟΥ ΖΗΤΗΣΕΣ ===
+        // 2. Εμφάνιση Ονόματος (Ζητούμενο 2)
+    els.name.textContent = celeb.name;
+    els.name.classList.remove('hidden'); // Εμφάνιση του ονόματος
+    
+    console.log(`Showing: ${celeb.name}`);
     // Ελέγχουμε πόσες κάρτες απομένουν ΣΤΗΝ ΟΥΡΑ (όχι συνολικά, αλλά μπροστά μας)
     const remainingItems = celebrityQueue.length - currentIndex;
 

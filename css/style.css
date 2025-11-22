@@ -179,18 +179,33 @@ button:focus-visible {
     border-radius: 20px;
     width: 100%;
     max-width: 350px;
-    aspect-ratio: 3/4;
+    /* Αφαιρούμε το aspect-ratio για να χωράει και το όνομα */
+    /* aspect-ratio: 3/4; */
     overflow: hidden;
     margin-bottom: 20px;
     box-shadow: 0 20px 40px rgba(0,0,0,0.5);
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card img {
     width: 100%;
-    height: 100%;
+    /* Σταθερό ύψος για την εικόνα, ώστε να μένει χώρος για το όνομα */
+    height: 400px; 
     object-fit: cover;
     border-radius: 15px;
+}
+
+/* Στυλ για το όνομα του διάσημου */
+#celeb-name {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text);
+    text-align: center;
 }
 
 .hidden {
