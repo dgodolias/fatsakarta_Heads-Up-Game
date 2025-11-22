@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Fatsa Karta Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="app-container">
+        <div id="start-screen" class="screen active">
+            <h1>FATSA KARTA</h1>
+            <p class="subtitle">Βάλε το κινητό στο μέτωπο!</p>
+            <button id="generate-btn" class="primary-btn">ΠΑΙΞΕ ΤΩΡΑ</button>
+            <p class="loading-text" id="loading-msg">Φόρτωση προσώπων...</p>
+        </div>
+
+        <div id="countdown-screen" class="screen">
+            <div class="timer-circle">
+                <span id="timer-number">5</span>
+            </div>
+            <p>Ετοιμάσου...</p>
+        </div>
+
+        <div id="game-screen" class="screen">
+            <div class="card">
+                <img id="celeb-img" src="" alt="Celebrity">
+                <h2 id="celeb-name" class="hidden">Όνομα (Κρυφό)</h2>
+            </div>
+            <div class="controls">
+                <button id="next-btn" class="secondary-btn">ΕΠΟΜΕΝΟ</button>
+                <button id="reset-btn" class="text-btn">ΤΕΛΟΣ</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
