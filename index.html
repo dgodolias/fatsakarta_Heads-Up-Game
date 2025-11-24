@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="el">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <div class="app-container">
@@ -14,7 +16,41 @@
             <h1>FATSA KARTA</h1>
             <p class="subtitle">Βάλε το κινητό στο μέτωπο!</p>
             <button id="generate-btn" class="primary-btn">ΠΑΙΞΕ ΤΩΡΑ</button>
+            <button id="filter-btn" class="secondary-btn" style="margin-top: 10px;">ΦΙΛΤΡΑ</button>
             <p class="loading-text" id="loading-msg">Φόρτωση προσώπων...</p>
+
+            <!-- Filter Modal/Overlay -->
+            <div id="filter-modal" class="modal hidden">
+                <div class="modal-content">
+                    <h2>Επιλογή Κατηγοριών</h2>
+
+                    <div class="filter-group">
+                        <h3>Θέμα</h3>
+                        <label><input type="checkbox" name="topic" value="Politics" checked> Πολιτική</label>
+                        <label><input type="checkbox" name="topic" value="Tv Presenters" checked> TV /
+                            Παρουσιαστές</label>
+                        <label><input type="checkbox" name="topic" value="Trap Music" checked> Trap / Μουσική</label>
+                        <label><input type="checkbox" name="topic" value="Influencers" checked> Influencers</label>
+                        <label><input type="checkbox" name="topic" value="Sports" checked> Αθλητισμός</label>
+                    </div>
+
+                    <div class="filter-group">
+                        <h3>Τοποθεσία</h3>
+                        <label><input type="checkbox" name="location" value="Greece" checked> Ελλάδα</label>
+                        <label><input type="checkbox" name="location" value="International" checked> Διεθνή</label>
+                    </div>
+
+                    <div class="filter-group">
+                        <h3>Φύλο</h3>
+                        <label><input type="checkbox" name="gender" value="Men" checked> Άνδρες</label>
+                        <label><input type="checkbox" name="gender" value="Women" checked> Γυναίκες</label>
+                    </div>
+
+                    <div class="modal-actions">
+                        <button id="apply-filters-btn" class="primary-btn">ΕΦΑΡΜΟΓΗ</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div id="countdown-screen" class="screen">
@@ -39,4 +75,5 @@
     <script src="js/api.js"></script>
     <script src="js/game.js"></script>
 </body>
+
 </html>

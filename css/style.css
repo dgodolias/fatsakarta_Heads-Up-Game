@@ -113,7 +113,202 @@ button {
     font-size: 1rem;
     font-weight: bold;
     border-radius: 12px;
-    width: 80%;
+    /* width: 80%; */
+    margin-bottom: 10px;
+}
+
+.secondary-btn:active,
+.secondary-btn.pressed {
+    transform: translateY(1px) scale(0.985);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25) inset;
+}
+
+.text-btn {
+    background: none;
+    border: none;
+    color: #aaa;
+    margin-top: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.text-btn:active,
+.text-btn.pressed {
+    transform: translateY(1px) scale(0.99);
+    color: #ccc;
+}
+
+/* keyboard focus for accessibility */
+button:focus-visible {
+    outline: 3px solid rgba(255,255,255,0.08);
+    outline-offset: 4px;
+}
+
+/* ripple element injected by JS */
+.ripple {
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    animation: ripple-effect 600ms ease-out;
+    pointer-events: none;
+    background: rgba(255,255,255,0.18);
+    opacity: 0.9;
+}
+
+/* subtle variant for light-content buttons */
+.primary-btn .ripple { background: rgba(0,0,0,0.14); }
+.secondary-btn .ripple { background: rgba(255,255,255,0.18); }
+.text-btn .ripple { background: rgba(255,255,255,0.08); }
+
+@keyframes ripple-effect {
+    from { transform: scale(0); opacity: 0.9; }
+    to { transform: scale(3.8); opacity: 0; }
+}
+
+/* Countdown */
+.timer-circle {
+    font-size: 6rem;
+    font-weight: 900;
+    color: var(--primary);
+}
+
+/* Game Card */
+.card {
+    background: var(--card-bg);
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 350px;
+    /* Αφαιρούμε το aspect-ratio για να χωράει και το όνομα */
+    /* aspect-ratio: 3/4; */
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    width: 100%;
+    /* Σταθερό ύψος για την εικόνα, ώστε να μένει χώρος για το όνομα */
+    height: 400px; 
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* Στυλ για το όνομα του διάσημου */
+#celeb-name {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text);
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.loading-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.screen {
+    display: none; /* Κρυμμένα όλα αρχικά */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: fadeIn 0.3s ease;
+}
+
+.screen.active {
+    display: flex;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: -2px;
+    background: -webkit-linear-gradient(45deg, #00E676, #2979FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    opacity: 0.7;
+    margin-bottom: 40px;
+}
+
+/* Buttons */
+button {
+    /* common button base so all buttons respond visually */
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    overflow: hidden; /* for ripple */
+    transition: transform 0.12s ease, box-shadow 0.12s ease, opacity 0.12s ease;
+    will-change: transform;
+}
+
+.primary-btn {
+    background-color: var(--primary);
+    color: #000;
+    border: none;
+    padding: 15px 40px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 230, 118, 0.18);
+}
+
+.primary-btn:active,
+.primary-btn.pressed {
+    transform: translateY(1px) scale(0.98);
+    box-shadow: 0 6px 12px rgba(0, 230, 118, 0.14);
+}
+
+.primary-btn:disabled {
+    background-color: #555;
+    color: #888;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+    opacity: 0.9;
+}
+
+.secondary-btn {
+    background-color: #2979FF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 12px;
+    /* width: 80%; */
     margin-bottom: 10px;
 }
 
@@ -221,4 +416,76 @@ button:focus-visible {
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
+}
+
+/* Modal Styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.modal.hidden {
+    display: none;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal-content {
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.1);
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.modal-content h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--primary);
+}
+
+.filter-group {
+    margin-bottom: 20px;
+}
+
+.filter-group h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #aaa;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 5px;
+}
+
+.filter-group label {
+    display: block;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.filter-group input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+    accent-color: var(--primary);
+}
+
+.modal-actions {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
 }

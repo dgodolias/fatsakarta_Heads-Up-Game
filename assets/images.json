@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Kyriakos Mitsotakis",
+    "image": "assets/kyriakos_mitsotakis-politics-men-greece.jpg",
+    "category": "politics_men_greece",
+    "topic": "Politics",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Stefanos Kasselakis",
+    "image": "assets/stefanos_kasselakis-politics-men-greece.jpg",
+    "category": "politics_men_greece",
+    "topic": "Politics",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Nikos Androulakis",
+    "image": "assets/nikos_androulakis-politics-men-greece.jpg",
+    "category": "politics_men_greece",
+    "topic": "Politics",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Dimitris Koutsoumpas",
+    "image": "assets/dimitris_koutsoumpas-politics-men-greece.jpg",
+    "category": "politics_men_greece",
+    "topic": "Politics",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Kyriakos Velopoulos",
+    "image": "assets/kyriakos_velopoulos-politics-men-greece.jpg",
+    "category": "politics_men_greece",
+    "topic": "Politics",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Alexis Tsipras",
+    "image": "assets/alexis_tsipras-politics-men-greece.jpg",
+    "category": "politics_men_greece",
+    "topic": "Politics",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Antonis Samaras",
+    "image": "assets/antonis_samaras-politics-men-greece.jpg",
+    "category": "politics_men_greece",
+    "topic": "Politics",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Yanis Varoufakis",
+    "image": "assets/yanis_varoufakis-politics-men-greece.jpg",
+    "category": "politics_men_greece",
+    "topic": "Politics",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Giorgos Papandreou",
+    "image": "assets/giorgos_papandreou-politics-men-greece.jpg",
+    "category": "politics_men_greece",
+    "topic": "Politics",
+    "gender": "Men",
+    "location": "Greece"
+  }
+]

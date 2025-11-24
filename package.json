@@ -1,0 +1,12 @@
+{
+    "name": "fatsakarta",
+    "version": "1.0.0",
+    "description": "Fatsa Karta Game",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {}
+}
