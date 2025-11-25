@@ -16,40 +16,8 @@
     "location": "Greece"
   },
   {
-    "name": "Akis Skertsos",
-    "image": "assets/akis_skertsos-politics-men-greece.jpg",
-    "category": "politics_men_greece",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Dimitris Tzanakopoulos",
-    "image": "assets/dimitris_tzanakopoulos-politics-men-greece.jpg",
-    "category": "politics_men_greece",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Stelios Petsas",
-    "image": "assets/stelios_petsas-politics-men-greece.jpg",
-    "category": "politics_men_greece",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
     "name": "George Gerapetritis",
     "image": "assets/george_gerapetritis-politics-men-greece.jpg",
-    "category": "politics_men_greece",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Dimitris Vitsas",
-    "image": "assets/dimitris_vitsas-politics-men-greece.jpg",
     "category": "politics_men_greece",
     "topic": "Politics",
     "gender": "Men",
@@ -64,14 +32,6 @@
     "location": "Greece"
   },
   {
-    "name": "Dimitris Kairidis",
-    "image": "assets/dimitris_kairidis-politics-men-greece.jpg",
-    "category": "politics_men_greece",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
     "name": "Michalis Chrysochoidis",
     "image": "assets/michalis_chrysochoidis-politics-men-greece.jpg",
     "category": "politics_men_greece",
@@ -80,40 +40,8 @@
     "location": "Greece"
   },
   {
-    "name": "Georgios Koumoutsakos",
-    "image": "assets/georgios_koumoutsakos-politics-men-greece.jpg",
-    "category": "politics_men_greece",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Nikos Pappas",
-    "image": "assets/nikos_pappas-politics-men-greece.jpg",
-    "category": "politics_men_greece",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
     "name": "Andreas Loverdos",
     "image": "assets/andreas_loverdos-politics-men-greece.jpg",
-    "category": "politics_men_greece",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Kostas Karamanlis",
-    "image": "assets/kostas_karamanlis-politics-men-greece.jpg",
-    "category": "politics_men_greece",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Evangelos Alexopoulos",
-    "image": "assets/evangelos_alexopoulos-politics-men-greece.jpg",
     "category": "politics_men_greece",
     "topic": "Politics",
     "gender": "Men",
@@ -136,80 +64,8 @@
     "location": "Greece"
   },
   {
-    "name": "Petros Filippidis",
-    "image": "assets/petros_filippidis-tv-men-greece.jpg",
-    "category": "tv_men_greece",
-    "topic": "Tv",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Stathis Panagiotopoulos",
-    "image": "assets/stathis_panagiotopoulos-tv-men-greece.jpg",
-    "category": "tv_men_greece",
-    "topic": "Tv",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
     "name": "Kostas Voutsas",
     "image": "assets/kostas_voutsas-tv-men-greece.jpg",
-    "category": "tv_men_greece",
-    "topic": "Tv",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Antonis Kanakis",
-    "image": "assets/antonis_kanakis-tv-men-greece.jpg",
-    "category": "tv_men_greece",
-    "topic": "Tv",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Sotiris Moustakas",
-    "image": "assets/sotiris_moustakas-tv-men-greece.jpg",
-    "category": "tv_men_greece",
-    "topic": "Tv",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Makis Papadimitriou",
-    "image": "assets/makis_papadimitriou-tv-men-greece.jpg",
-    "category": "tv_men_greece",
-    "topic": "Tv",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Savas Alexiou",
-    "image": "assets/savas_alexiou-tv-men-greece.jpg",
-    "category": "tv_men_greece",
-    "topic": "Tv",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Nikolas Mouratidis",
-    "image": "assets/nikolas_mouratidis-tv-men-greece.jpg",
-    "category": "tv_men_greece",
-    "topic": "Tv",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Vangelis Haralampidis",
-    "image": "assets/vangelis_haralampidis-tv-men-greece.jpg",
-    "category": "tv_men_greece",
-    "topic": "Tv",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Thanasis Voulgaridis",
-    "image": "assets/thanasis_voulgaridis-tv-men-greece.jpg",
     "category": "tv_men_greece",
     "topic": "Tv",
     "gender": "Men",
@@ -221,38 +77,6 @@
     "category": "tv_men_greece",
     "topic": "Tv",
     "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Kostas Kotsopoulos",
-    "image": "assets/kostas_kotsopoulos-tv-men-greece.jpg",
-    "category": "tv_men_greece",
-    "topic": "Tv",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Giannis Bezos",
-    "image": "assets/giannis_bezos-tv-men-greece.jpg",
-    "category": "tv_men_greece",
-    "topic": "Tv",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Marianna Toufexi",
-    "image": "assets/marianna_toufexi-tv-women-greece.jpg",
-    "category": "tv_women_greece",
-    "topic": "Tv",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Dora Masklavanou",
-    "image": "assets/dora_masklavanou-tv-women-greece.jpg",
-    "category": "tv_women_greece",
-    "topic": "Tv",
-    "gender": "Women",
     "location": "Greece"
   },
   {
@@ -346,14 +170,6 @@
   {
     "name": "Vasoula Maroudi",
     "image": "assets/vasoula_maroudi-tv-women-greece.jpg",
-    "category": "tv_women_greece",
-    "topic": "Tv",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Despina Nikolaidi",
-    "image": "assets/despina_nikolaidi-tv-women-greece.jpg",
     "category": "tv_women_greece",
     "topic": "Tv",
     "gender": "Women",
@@ -490,14 +306,6 @@
   {
     "name": "Natalie Portman",
     "image": "assets/natalie_portman-tv-women-international.jpg",
-    "category": "tv_women_international",
-    "topic": "Tv",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Gal Gadot",
-    "image": "assets/gal_gadot-tv-women-international.jpg",
     "category": "tv_women_international",
     "topic": "Tv",
     "gender": "Women",
@@ -922,14 +730,6 @@
   {
     "name": "Vangelis Kostis",
     "image": "assets/vangelis_kostis-influencers-men-greece.jpg",
-    "category": "influencers_men_greece",
-    "topic": "Influencers",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Dimitris Filippidis",
-    "image": "assets/dimitris_filippidis-influencers-men-greece.jpg",
     "category": "influencers_men_greece",
     "topic": "Influencers",
     "gender": "Men",
@@ -1558,5 +1358,53 @@
     "topic": "Sports",
     "gender": "Men",
     "location": "International"
+  },
+  {
+    "name": "Akis Skertsos",
+    "image": "assets/akis_skertsos-politics-men-greece.jpg",
+    "category": "politics_men_greece",
+    "topic": "Politics",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Dimitris Tzanakopoulos",
+    "image": "assets/dimitris_tzanakopoulos-politics-men-greece.jpg",
+    "category": "politics_men_greece",
+    "topic": "Politics",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Dimitris Vitsas",
+    "image": "assets/dimitris_vitsas-politics-men-greece.jpg",
+    "category": "politics_men_greece",
+    "topic": "Politics",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Dimitris Kairidis",
+    "image": "assets/dimitris_kairidis-politics-men-greece.jpg",
+    "category": "politics_men_greece",
+    "topic": "Politics",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Georgios Koumoutsakos",
+    "image": "assets/georgios_koumoutsakos-politics-men-greece.jpg",
+    "category": "politics_men_greece",
+    "topic": "Politics",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Nikos Pappas",
+    "image": "assets/nikos_pappas-politics-men-greece.jpg",
+    "category": "politics_men_greece",
+    "topic": "Politics",
+    "gender": "Men",
+    "location": "Greece"
   }
 ]

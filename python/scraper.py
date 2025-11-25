@@ -51,44 +51,6 @@ def slugify_filename(name: str) -> str:
     return ascii_name
 
 
-def pick_best_image_url(results):
-    """
-    Prefer likely portrait photos by basic heuristics.
-    """
-    bad_ext = (".svg", ".gif")
-    for r in results:
-        url = r.get("image")
-        if not url:
-            continue
-        low = url.lower()
-        if low.endswith(bad_ext):
-            continue
-        return url
-    return None
-
-
-def download_image(url: str, timeout=15) -> bytes:
-    headers = {
-        "User-Agent": (
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/123.0 Safari/537.36"
-        ),
-        "Referer": "https://duckduckgo.com/",
-    }
-    resp = requests.get(url, headers=headers, timeout=timeout)
-    resp.raise_for_status()
-    return resp.content
-
-
-def resize_to_width(img: Image.Image, target_w=500) -> Image.Image:
-    w, h = img.size
-    if w <= target_w:
-        return img
-    new_h = int(h * (target_w / w))
-    return img.resize((target_w, new_h), Image.LANCZOS)
-
-
 def parse_category_info(list_name: str):
     """
     Parses variable name like 'politics_men_greece' into metadata.
@@ -120,18 +82,38 @@ def parse_category_info(list_name: str):
         
     return meta
 
+def save_json(data, path):
+    """Helper to save JSON data safely."""
+    try:
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"\n[!] Error saving JSON: {e}")
 
 # ---------------------------
 # 2) Main routine
 # ---------------------------
 def main():
     os.makedirs("assets", exist_ok=True)
+    json_path = os.path.join("assets", "images.json")
     
+    # 1. Load existing JSON data to preserve history
+    existing_data = []
+    if os.path.exists(json_path):
+        try:
+            with open(json_path, "r", encoding="utf-8") as f:
+                existing_data = json.load(f)
+            print(f"Loaded {len(existing_data)} existing entries from {json_path}")
+        except Exception as e:
+            print(f"Error loading existing JSON: {e}. Starting fresh.")
+            existing_data = []
+    
+    # Create a lookup map for existing entries by name to avoid duplicates/overwrite logic if needed
+    # Key: name, Value: entry dict
+    data_map = {item["name"]: item for item in existing_data}
+
     # Collect all lists from lists.py
-    # We look for variables that are lists and not private (start with _)
     all_lists = {k: v for k, v in vars(lists).items() if isinstance(v, list) and not k.startswith('_')}
-    
-    final_json_data = []
     
     total_items = sum(len(l) for l in all_lists.values())
     processed_count = 0
@@ -148,26 +130,37 @@ def main():
             for name in celebrities:
                 processed_count += 1
                 
+                display_name = strip_parentheses(name)
                 name_slug = slugify_filename(name)
                 filename = f"{name_slug}-{category_slug}.jpg"
                 out_path = os.path.join("assets", filename)
-                
-                display_name = strip_parentheses(name)
-                
-                # Add to JSON data regardless of whether we download it now or it exists
-                final_json_data.append({
+                rel_path = f"assets/{filename}"
+
+                # Construct the entry object
+                entry = {
                     "name": display_name,
-                    "image": f"assets/{filename}",
+                    "image": rel_path,
                     "category": list_name,
                     "topic": meta["topic"],
                     "gender": meta["gender"],
                     "location": meta["location"]
-                })
+                }
 
+                # Check if image exists physically
                 if os.path.exists(out_path):
-                    print(f"[{processed_count}/{total_items}] {name}: already exists, skipping")
+                    print(f"[{processed_count}/{total_items}] {name}: Image exists.", end=" ")
+                    
+                    # Update/Add to data_map
+                    if display_name not in data_map:
+                        print("Adding to JSON.")
+                        data_map[display_name] = entry
+                        # Save immediately on change
+                        save_json(list(data_map.values()), json_path)
+                    else:
+                        print("Already in JSON.")
                     continue
 
+                # If not exists, download
                 print(f"[{processed_count}/{total_items}] Downloading {name}...", end=" ", flush=True)
                 
                 # Retry logic for 403 Ratelimit
@@ -226,18 +219,23 @@ def main():
                             print(f"[Search Error: {e}]")
                             break
 
+                # If successfully downloaded, add to JSON and save
+                if success and os.path.exists(out_path):
+                    data_map[display_name] = entry
+                    save_json(list(data_map.values()), json_path)
+                
                 # Sleep to be nice to the API
                 time.sleep(random.uniform(3.0, 6.0))
 
     except KeyboardInterrupt:
-        print("\n\n[!] Script interrupted by user. Saving progress...")
+        print("\n\n[!] Script interrupted by user. Progress saved.")
     except Exception as e:
-        print(f"\n\n[!] Unexpected error: {e}. Saving progress...")
+        print(f"\n\n[!] Unexpected error: {e}. Progress saved.")
     finally:
-        print("\nGenerating assets/images.json...")
-        with open(os.path.join("assets", "images.json"), "w", encoding="utf-8") as f:
-            json.dump(final_json_data, f, ensure_ascii=False, indent=2)
-        print(f"Done! Saved {len(final_json_data)} items to assets/images.json")
+        # Final save just in case
+        print("\nFinalizing assets/images.json...")
+        save_json(list(data_map.values()), json_path)
+        print(f"Done! Saved {len(data_map)} items to assets/images.json")
 
 
 if __name__ == "__main__":
