@@ -9,23 +9,57 @@ let activeFilters = {
 
 /**
  * Loads the images.json file and initializes the available pool.
+ * Also validates that images exist and removes broken ones.
  */
 async function loadLocalImages() {
     try {
         const response = await fetch('assets/images.json');
         if (!response.ok) throw new Error("Failed to load images.json");
-        allImages = await response.json();
+        let loadedImages = await response.json();
 
-        // Initialize filters to include everything by default if empty
-        // But actually the UI will dictate filters.
-        // For now, let's assume if activeFilters are empty, we show everything.
+        // Validate each image exists by trying to load it
+        allImages = await validateImages(loadedImages);
 
         resetAvailableImages();
-        console.log(`Loaded ${allImages.length} images from local assets.`);
+        console.log(`Loaded ${allImages.length} validated images from local assets.`);
     } catch (error) {
         console.error("Error loading local images:", error);
         allImages = [];
     }
+}
+
+/**
+ * Validates that images actually exist and can be loaded.
+ * Filters out any broken/missing images.
+ */
+async function validateImages(images) {
+    const validatedImages = [];
+
+    for (const img of images) {
+        const exists = await checkImageExists(img.image);
+        if (exists) {
+            validatedImages.push(img);
+        } else {
+            console.warn(`⚠️ Image not found, skipping: ${img.name} (${img.image})`);
+        }
+    }
+
+    return validatedImages;
+}
+
+/**
+ * Checks if an image URL can be loaded
+ */
+function checkImageExists(url) {
+    return new Promise((resolve) => {
+        const img = new Image();
+        img.onload = () => resolve(true);
+        img.onerror = () => resolve(false);
+        img.src = url;
+
+        // Timeout after 3 seconds
+        setTimeout(() => resolve(false), 3000);
+    });
 }
 
 /**
@@ -41,15 +75,7 @@ function setFilters(filters) {
  * Resets the available images pool based on active filters.
  */
 function resetAvailableImages() {
-    // Filter allImages based on activeFilters
     availableImages = allImages.filter(item => {
-        // If filter array is empty, it means "all selected" (or none, but usually all in this context)
-        // However, the UI sends the CHECKED values. So if empty, nothing matches?
-        // Let's assume if the UI sends empty array, it means nothing selected.
-        // But usually we want to start with all.
-
-        // Let's handle the logic: Item must match ONE of the selected topics AND ONE of the selected locations AND ONE of the selected genders.
-
         const topicMatch = activeFilters.topic.length === 0 || activeFilters.topic.includes(item.topic);
         const locationMatch = activeFilters.location.length === 0 || activeFilters.location.includes(item.location);
         const genderMatch = activeFilters.gender.length === 0 || activeFilters.gender.includes(item.gender);
@@ -61,7 +87,7 @@ function resetAvailableImages() {
 }
 
 /**
- * Formats a name to Title Case (e.g. "LIGHT (TRAPPER)" -> "Light (Trapper)")
+ * Formats a name to Title Case
  */
 function toTitleCase(str) {
     return str.replace(
@@ -72,7 +98,7 @@ function toTitleCase(str) {
 
 /**
  * Fetches a single random celebrity from the local pool.
- * Returns an array of 1 item to maintain compatibility with game.js logic.
+ * Returns an array of 1 item to maintain compatibility.
  */
 async function fetchCelebrityBatch() {
     // Ensure data is loaded
@@ -90,7 +116,6 @@ async function fetchCelebrityBatch() {
         console.log("All filtered images shown! Resetting pool...");
         resetAvailableImages();
 
-        // If still empty, it means filters are too restrictive
         if (availableImages.length === 0) {
             console.warn("No images match the current filters.");
             return [];

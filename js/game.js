@@ -1,7 +1,6 @@
 // === STATE ===
-let celebrityQueue = []; 
-let currentIndex = 0;    
-let isFetching = false;  
+let celebrityQueue = [];
+let currentIndex = 0;
 
 // === DOM ELEMENTS ===
 const screens = {
@@ -17,52 +16,70 @@ const els = {
     timer: document.getElementById('timer-number'),
     img: document.getElementById('celeb-img'),
     name: document.getElementById('celeb-name'),
-    loading: document.getElementById('loading-msg')
+    loading: document.getElementById('loading-msg'),
+    filterBtn: document.getElementById('filter-btn'),
+    filterModal: document.getElementById('filter-modal'),
+    applyFiltersBtn: document.getElementById('apply-filters-btn')
 };
 
-// === DATA BUFFERING LOGIC ===
-async function loadMoreData() {
-    if (isFetching) return; 
-    isFetching = true;
+// === FILTER MODAL HANDLING ===
+els.filterBtn.addEventListener('click', () => {
+    els.filterModal.classList.remove('hidden');
+});
 
-    console.log("--- Requesting next batch... ---");
-    
-    try {
-        const newBatch = await fetchCelebrityBatch(); 
-        
-        if (newBatch.length === 0) {
-            console.log("No data received via API.");
-            isFetching = false;
-            return;
-        }
+els.applyFiltersBtn.addEventListener('click', () => {
+    // Collect selected filters
+    const topicCheckboxes = document.querySelectorAll('input[name="topic"]:checked');
+    const locationCheckboxes = document.querySelectorAll('input[name="location"]:checked');
+    const genderCheckboxes = document.querySelectorAll('input[name="gender"]:checked');
 
-        const shuffledBatch = shuffleArray(newBatch);
-        celebrityQueue.push(...shuffledBatch);
-        
-        console.log(`Added ${newBatch.length} items. Queue Size: ${celebrityQueue.length}`);
-    } catch (err) {
-        console.error("Failed to load more data", err);
-    } finally {
-        isFetching = false;
+    const filters = {
+        topic: Array.from(topicCheckboxes).map(cb => cb.value),
+        location: Array.from(locationCheckboxes).map(cb => cb.value),
+        gender: Array.from(genderCheckboxes).map(cb => cb.value)
+    };
+
+    // Apply filters via API
+    setFilters(filters);
+
+    // Reset queue so new filters take effect immediately
+    currentIndex = 0;
+    celebrityQueue = [];
+
+    // Close modal
+    els.filterModal.classList.add('hidden');
+
+    console.log('Filters applied:', filters);
+});
+
+// Close modal when clicking outside
+els.filterModal.addEventListener('click', (e) => {
+    if (e.target === els.filterModal) {
+        els.filterModal.classList.add('hidden');
     }
-}
+});
 
 // === INITIALIZATION ===
 async function init() {
     try {
         els.btnGenerate.disabled = true;
         els.btnGenerate.textContent = "ΦΟΡΤΩΣΗ...";
-        
-        // Φορτώνουμε ΜΙΑ φορά στην αρχή
-        await loadMoreData();
 
-        // Αν για κάποιο λόγο δεν έφερε τίποτα (πχ error), ξαναδοκιμάζουμε μια φορά
-        if (celebrityQueue.length === 0) await loadMoreData();
+        // Φορτώνουμε όλες τις εικόνες μια φορά στην αρχή
+        const batch = await fetchCelebrityBatch();
+
+        if (batch.length === 0) {
+            alert("Δεν βρέθηκαν πρόσωπα! Κάνε refresh.");
+            return;
+        }
+
+        // Ξεκινάμε με μια κάρτα, οι υπόλοιπες θα φορτώνονται δυναμικά
+        celebrityQueue.push(...batch);
 
         els.loading.style.display = 'none';
         els.btnGenerate.disabled = false;
         els.btnGenerate.textContent = "ΠΑΙΞΕ ΤΩΡΑ";
-        
+
     } catch (error) {
         console.error("Init Error:", error);
         alert("Κάτι πήγε στραβά. Κάνε refresh.");
@@ -71,12 +88,6 @@ async function init() {
 
 // === GAME FLOW ===
 els.btnGenerate.addEventListener('click', () => {
-    // Αν έχουν τελειώσει οι κάρτες, ξεκινάμε από την αρχή
-    if (currentIndex >= celebrityQueue.length) {
-        currentIndex = 0;
-        celebrityQueue = shuffleArray(celebrityQueue); // Ανακάτεμα των υπαρχόντων
-    }
-
     showScreen('countdown');
     let timeLeft = 5;
     els.timer.innerText = timeLeft;
@@ -97,47 +108,42 @@ function startGame() {
     showScreen('game');
 }
 
-function showNextPhoto() {
-    // Προστασία αν η ουρά είναι άδεια
-    if (celebrityQueue.length === 0) {
-        alert("Δεν βρέθηκαν πρόσωπα! Κάνε refresh.");
-        return;
+async function showNextPhoto() {
+    // Αν τελείωσαν οι κάρτες στην ουρά, πάρε μία νέα
+    if (currentIndex >= celebrityQueue.length) {
+        const newBatch = await fetchCelebrityBatch();
+        if (newBatch.length > 0) {
+            celebrityQueue.push(...newBatch);
+        } else {
+            alert("Δεν υπάρχουν άλλες κάρτες με αυτά τα φίλτρα!");
+            showScreen('start');
+            currentIndex = 0;
+            celebrityQueue = [];
+            return;
+        }
     }
 
-    // 1. Εμφάνιση φωτογραφίας
-    // Χρησιμοποιούμε το modulo για να μην κρασάρει αν ξεπεράσουμε το μήκος (looping safe)
-    const safeIndex = currentIndex % celebrityQueue.length;
-    const celeb = celebrityQueue[safeIndex];
-    
-    let imageUrl = celeb.image;
-    if (!imageUrl.includes("width=")) imageUrl += "?width=500";
-    els.img.src = imageUrl;
-    
-    console.log(`Showing #${currentIndex}: ${celeb.name}`);
+    // Πάρε την επόμενη κάρτα
+    const celeb = celebrityQueue[currentIndex];
 
-    // 2. Αύξηση δείκτη
-    currentIndex++;
+    // Εμφάνιση εικόνας
+    els.img.src = celeb.image;
 
-    // 3. === Η ΛΟΓΙΚΗ ΠΟΥ ΖΗΤΗΣΕΣ ===
-        // 2. Εμφάνιση Ονόματος (Ζητούμενο 2)
+    // Εμφάνιση ονόματος
     els.name.textContent = celeb.name;
-    els.name.classList.remove('hidden'); // Εμφάνιση του ονόματος
-    
-    console.log(`Showing: ${celeb.name}`);
-    // Ελέγχουμε πόσες κάρτες απομένουν ΣΤΗΝ ΟΥΡΑ (όχι συνολικά, αλλά μπροστά μας)
-    const remainingItems = celebrityQueue.length - currentIndex;
+    els.name.classList.remove('hidden');
 
-    // Αν μένουν λιγότερες από 2 κάρτες, ΤΟΤΕ ζήτα την επόμενη παρτίδα.
-    // Έτσι, όταν ο χρήστης βλέπει την προτελευταία, εμείς φέρνουμε τις επόμενες 20.
-    if (remainingItems < 2) {
-        console.log("Φτάνουμε στο τέλος του batch, φόρτωση επόμενων...");
-        loadMoreData();
-    }
+    console.log(`Showing: ${celeb.name}`);
+
+    // Αύξηση δείκτη
+    currentIndex++;
 }
 
 els.btnNext.addEventListener('click', showNextPhoto);
 
 els.btnReset.addEventListener('click', () => {
+    currentIndex = 0;
+    celebrityQueue = [];
     showScreen('start');
 });
 
