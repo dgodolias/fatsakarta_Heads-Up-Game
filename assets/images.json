@@ -1,783 +1,375 @@
 [
   {
-    "name": "Kyriakos Mitsotakis",
-    "image": "assets/kyriakos_mitsotakis-politics-men-greece.jpg",
+    "name": "Theodoros Skylakakis",
+    "image": "assets/theodoros_skylakakis-politics-men-greece.jpg",
     "category": "politics_men_greece",
     "topic": "Politics",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Stefanos Kasselakis",
-    "image": "assets/stefanos_kasselakis-politics-men-greece.jpg",
+    "name": "Nikos Hardalias",
+    "image": "assets/nikos_hardalias-politics-men-greece.jpg",
     "category": "politics_men_greece",
     "topic": "Politics",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Nikos Androulakis",
-    "image": "assets/nikos_androulakis-politics-men-greece.jpg",
+    "name": "Akis Skertsos",
+    "image": "assets/akis_skertsos-politics-men-greece.jpg",
     "category": "politics_men_greece",
     "topic": "Politics",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Dimitris Koutsoumpas",
-    "image": "assets/dimitris_koutsoumpas-politics-men-greece.jpg",
+    "name": "Dimitris Tzanakopoulos",
+    "image": "assets/dimitris_tzanakopoulos-politics-men-greece.jpg",
     "category": "politics_men_greece",
     "topic": "Politics",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Kyriakos Velopoulos",
-    "image": "assets/kyriakos_velopoulos-politics-men-greece.jpg",
+    "name": "Stelios Petsas",
+    "image": "assets/stelios_petsas-politics-men-greece.jpg",
     "category": "politics_men_greece",
     "topic": "Politics",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Alexis Tsipras",
-    "image": "assets/alexis_tsipras-politics-men-greece.jpg",
+    "name": "George Gerapetritis",
+    "image": "assets/george_gerapetritis-politics-men-greece.jpg",
     "category": "politics_men_greece",
     "topic": "Politics",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Antonis Samaras",
-    "image": "assets/antonis_samaras-politics-men-greece.jpg",
+    "name": "Dimitris Vitsas",
+    "image": "assets/dimitris_vitsas-politics-men-greece.jpg",
     "category": "politics_men_greece",
     "topic": "Politics",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Yanis Varoufakis",
-    "image": "assets/yanis_varoufakis-politics-men-greece.jpg",
+    "name": "Christos Spirtzis",
+    "image": "assets/christos_spirtzis-politics-men-greece.jpg",
     "category": "politics_men_greece",
     "topic": "Politics",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Giorgos Papandreou",
-    "image": "assets/giorgos_papandreou-politics-men-greece.jpg",
+    "name": "Dimitris Kairidis",
+    "image": "assets/dimitris_kairidis-politics-men-greece.jpg",
     "category": "politics_men_greece",
     "topic": "Politics",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Adonis Georgiadis",
-    "image": "assets/adonis_georgiadis-politics-men-greece.jpg",
+    "name": "Michalis Chrysochoidis",
+    "image": "assets/michalis_chrysochoidis-politics-men-greece.jpg",
     "category": "politics_men_greece",
     "topic": "Politics",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Nikos Dendias",
-    "image": "assets/nikos_dendias-politics-men-greece.jpg",
+    "name": "Georgios Koumoutsakos",
+    "image": "assets/georgios_koumoutsakos-politics-men-greece.jpg",
     "category": "politics_men_greece",
     "topic": "Politics",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Pavlos Marinakis",
-    "image": "assets/pavlos_marinakis-politics-men-greece.jpg",
+    "name": "Nikos Pappas",
+    "image": "assets/nikos_pappas-politics-men-greece.jpg",
     "category": "politics_men_greece",
     "topic": "Politics",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Kostas Skrekas",
-    "image": "assets/kostas_skrekas-politics-men-greece.jpg",
+    "name": "Andreas Loverdos",
+    "image": "assets/andreas_loverdos-politics-men-greece.jpg",
     "category": "politics_men_greece",
     "topic": "Politics",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Takis Theodorikakos",
-    "image": "assets/takis_theodorikakos-politics-men-greece.jpg",
+    "name": "Kostas Karamanlis",
+    "image": "assets/kostas_karamanlis-politics-men-greece.jpg",
     "category": "politics_men_greece",
     "topic": "Politics",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Giorgos Gerapetritis",
-    "image": "assets/giorgos_gerapetritis-politics-men-greece.jpg",
+    "name": "Evangelos Alexopoulos",
+    "image": "assets/evangelos_alexopoulos-politics-men-greece.jpg",
     "category": "politics_men_greece",
     "topic": "Politics",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Zoe Konstantopoulou",
-    "image": "assets/zoe_konstantopoulou-politics-women-greece.jpg",
-    "category": "politics_women_greece",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Dora Bakoyannis",
-    "image": "assets/dora_bakoyannis-politics-women-greece.jpg",
-    "category": "politics_women_greece",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Katerina Sakellaropoulou",
-    "image": "assets/katerina_sakellaropoulou-politics-women-greece.jpg",
-    "category": "politics_women_greece",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Afroditi Latinopoulou",
-    "image": "assets/afroditi_latinopoulou-politics-women-greece.jpg",
-    "category": "politics_women_greece",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Anna Diamantopoulou",
-    "image": "assets/anna_diamantopoulou-politics-women-greece.jpg",
-    "category": "politics_women_greece",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Rania Svigou",
-    "image": "assets/rania_svigou-politics-women-greece.jpg",
-    "category": "politics_women_greece",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Efi Achtsioglou",
-    "image": "assets/efi_achtsioglou-politics-women-greece.jpg",
-    "category": "politics_women_greece",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Liana Kanelli",
-    "image": "assets/liana_kanelli-politics-women-greece.jpg",
-    "category": "politics_women_greece",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Olga Gerovasili",
-    "image": "assets/olga_gerovasili-politics-women-greece.jpg",
-    "category": "politics_women_greece",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Elena Akrita",
-    "image": "assets/elena_akrita-politics-women-greece.jpg",
-    "category": "politics_women_greece",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Alexandra Sdoukou",
-    "image": "assets/alexandra_sdoukou-politics-women-greece.jpg",
-    "category": "politics_women_greece",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Mina Gaga",
-    "image": "assets/mina_gaga-politics-women-greece.jpg",
-    "category": "politics_women_greece",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Myrsini Zorba",
-    "image": "assets/myrsini_zorba-politics-women-greece.jpg",
-    "category": "politics_women_greece",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Niki Kerameus",
-    "image": "assets/niki_kerameus-politics-women-greece.jpg",
-    "category": "politics_women_greece",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Mariliza Xenogiannakopoulou",
-    "image": "assets/mariliza_xenogiannakopoulou-politics-women-greece.jpg",
-    "category": "politics_women_greece",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Elon Musk",
-    "image": "assets/elon_musk-politics-men-international.jpg",
-    "category": "politics_men_international",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Mark Zuckerberg",
-    "image": "assets/mark_zuckerberg-politics-men-international.jpg",
-    "category": "politics_men_international",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Donald Trump",
-    "image": "assets/donald_trump-politics-men-international.jpg",
-    "category": "politics_men_international",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Joe Biden",
-    "image": "assets/joe_biden-politics-men-international.jpg",
-    "category": "politics_men_international",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Emmanuel Macron",
-    "image": "assets/emmanuel_macron-politics-men-international.jpg",
-    "category": "politics_men_international",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Volodymyr Zelenskyy",
-    "image": "assets/volodymyr_zelenskyy-politics-men-international.jpg",
-    "category": "politics_men_international",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Justin Trudeau",
-    "image": "assets/justin_trudeau-politics-men-international.jpg",
-    "category": "politics_men_international",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Rishi Sunak",
-    "image": "assets/rishi_sunak-politics-men-international.jpg",
-    "category": "politics_men_international",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Javier Milei",
-    "image": "assets/javier_milei-politics-men-international.jpg",
-    "category": "politics_men_international",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Narendra Modi",
-    "image": "assets/narendra_modi-politics-men-international.jpg",
-    "category": "politics_men_international",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Olaf Scholz",
-    "image": "assets/olaf_scholz-politics-men-international.jpg",
-    "category": "politics_men_international",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Pedro Sanchez",
-    "image": "assets/pedro_sanchez-politics-men-international.jpg",
-    "category": "politics_men_international",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Luiz Inacio Lula da Silva",
-    "image": "assets/luiz_inacio_lula_da_silva-politics-men-international.jpg",
-    "category": "politics_men_international",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Recep Tayyip Erdogan",
-    "image": "assets/recep_tayyip_erdogan-politics-men-international.jpg",
-    "category": "politics_men_international",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Keir Starmer",
-    "image": "assets/keir_starmer-politics-men-international.jpg",
-    "category": "politics_men_international",
-    "topic": "Politics",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Greta Thunberg",
-    "image": "assets/greta_thunberg-politics-women-international.jpg",
-    "category": "politics_women_international",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Kamala Harris",
-    "image": "assets/kamala_harris-politics-women-international.jpg",
-    "category": "politics_women_international",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Giorgia Meloni",
-    "image": "assets/giorgia_meloni-politics-women-international.jpg",
-    "category": "politics_women_international",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Ursula von der Leyen",
-    "image": "assets/ursula_von_der_leyen-politics-women-international.jpg",
-    "category": "politics_women_international",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Marine Le Pen",
-    "image": "assets/marine_le_pen-politics-women-international.jpg",
-    "category": "politics_women_international",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Alexandria Ocasio-Cortez",
-    "image": "assets/alexandria_ocasio_cortez-politics-women-international.jpg",
-    "category": "politics_women_international",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Sanna Marin",
-    "image": "assets/sanna_marin-politics-women-international.jpg",
-    "category": "politics_women_international",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Jacinda Ardern",
-    "image": "assets/jacinda_ardern-politics-women-international.jpg",
-    "category": "politics_women_international",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Nikki Haley",
-    "image": "assets/nikki_haley-politics-women-international.jpg",
-    "category": "politics_women_international",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Liz Truss",
-    "image": "assets/liz_truss-politics-women-international.jpg",
-    "category": "politics_women_international",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Nancy Pelosi",
-    "image": "assets/nancy_pelosi-politics-women-international.jpg",
-    "category": "politics_women_international",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Michelle Obama",
-    "image": "assets/michelle_obama-politics-women-international.jpg",
-    "category": "politics_women_international",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Yulia Navalnaya",
-    "image": "assets/yulia_navalnaya-politics-women-international.jpg",
-    "category": "politics_women_international",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Kaja Kallas",
-    "image": "assets/kaja_kallas-politics-women-international.jpg",
-    "category": "politics_women_international",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Pramila Jayapal",
-    "image": "assets/pramila_jayapal-politics-women-international.jpg",
-    "category": "politics_women_international",
-    "topic": "Politics",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Fanis Lampropoulos",
-    "image": "assets/fanis_lampropoulos-tv-men-greece.jpg",
+    "name": "Dimitris Ouggarezos",
+    "image": "assets/dimitris_ouggarezos-tv-men-greece.jpg",
     "category": "tv_men_greece",
     "topic": "Tv",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Nikos Moutsinas",
-    "image": "assets/nikos_moutsinas-tv-men-greece.jpg",
+    "name": "Grigoris Gionis",
+    "image": "assets/grigoris_gionis-tv-men-greece.jpg",
     "category": "tv_men_greece",
     "topic": "Tv",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Giorgos Liagkas",
-    "image": "assets/giorgos_liagkas-tv-men-greece.jpg",
+    "name": "Petros Filippidis",
+    "image": "assets/petros_filippidis-tv-men-greece.jpg",
     "category": "tv_men_greece",
     "topic": "Tv",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Grigoris Arnaoutoglou",
-    "image": "assets/grigoris_arnaoutoglou-tv-men-greece.jpg",
+    "name": "Stathis Panagiotopoulos",
+    "image": "assets/stathis_panagiotopoulos-tv-men-greece.jpg",
     "category": "tv_men_greece",
     "topic": "Tv",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Sakis Tanimanidis",
-    "image": "assets/sakis_tanimanidis-tv-men-greece.jpg",
+    "name": "Kostas Voutsas",
+    "image": "assets/kostas_voutsas-tv-men-greece.jpg",
     "category": "tv_men_greece",
     "topic": "Tv",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Giorgos Kapoutzidis",
-    "image": "assets/giorgos_kapoutzidis-tv-men-greece.jpg",
+    "name": "Antonis Kanakis",
+    "image": "assets/antonis_kanakis-tv-men-greece.jpg",
     "category": "tv_men_greece",
     "topic": "Tv",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Nikos Koklonis",
-    "image": "assets/nikos_koklonis-tv-men-greece.jpg",
+    "name": "Sotiris Moustakas",
+    "image": "assets/sotiris_moustakas-tv-men-greece.jpg",
     "category": "tv_men_greece",
     "topic": "Tv",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Yiorgos Karavas",
-    "image": "assets/yiorgos_karavas-tv-men-greece.jpg",
+    "name": "Makis Papadimitriou",
+    "image": "assets/makis_papadimitriou-tv-men-greece.jpg",
     "category": "tv_men_greece",
     "topic": "Tv",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Makis Papasimakopoulos",
-    "image": "assets/makis_papasimakopoulos-tv-men-greece.jpg",
+    "name": "Savas Alexiou",
+    "image": "assets/savas_alexiou-tv-men-greece.jpg",
     "category": "tv_men_greece",
     "topic": "Tv",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Lakis Lazopoulos",
-    "image": "assets/lakis_lazopoulos-tv-men-greece.jpg",
+    "name": "Nikolas Mouratidis",
+    "image": "assets/nikolas_mouratidis-tv-men-greece.jpg",
     "category": "tv_men_greece",
     "topic": "Tv",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Tasos Tryfonos",
-    "image": "assets/tasos_tryfonos-tv-men-greece.jpg",
+    "name": "Vangelis Haralampidis",
+    "image": "assets/vangelis_haralampidis-tv-men-greece.jpg",
     "category": "tv_men_greece",
     "topic": "Tv",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Theocharis Ioannidis",
-    "image": "assets/theocharis_ioannidis-tv-men-greece.jpg",
+    "name": "Thanasis Voulgaridis",
+    "image": "assets/thanasis_voulgaridis-tv-men-greece.jpg",
     "category": "tv_men_greece",
     "topic": "Tv",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Christos Ferentinos",
-    "image": "assets/christos_ferentinos-tv-men-greece.jpg",
+    "name": "Dimitris Starovas",
+    "image": "assets/dimitris_starovas-tv-men-greece.jpg",
     "category": "tv_men_greece",
     "topic": "Tv",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Petros Kostopoulos",
-    "image": "assets/petros_kostopoulos-tv-men-greece.jpg",
+    "name": "Kostas Kotsopoulos",
+    "image": "assets/kostas_kotsopoulos-tv-men-greece.jpg",
     "category": "tv_men_greece",
     "topic": "Tv",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Kostas Mparkas",
-    "image": "assets/kostas_mparkas-tv-men-greece.jpg",
+    "name": "Giannis Bezos",
+    "image": "assets/giannis_bezos-tv-men-greece.jpg",
     "category": "tv_men_greece",
     "topic": "Tv",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Zeta Makrypoulia",
-    "image": "assets/zeta_makrypoulia-tv-women-greece.jpg",
+    "name": "Marianna Toufexi",
+    "image": "assets/marianna_toufexi-tv-women-greece.jpg",
     "category": "tv_women_greece",
     "topic": "Tv",
     "gender": "Women",
     "location": "Greece"
   },
   {
-    "name": "Katerina Kainourgiou",
-    "image": "assets/katerina_kainourgiou-tv-women-greece.jpg",
+    "name": "Dora Masklavanou",
+    "image": "assets/dora_masklavanou-tv-women-greece.jpg",
     "category": "tv_women_greece",
     "topic": "Tv",
     "gender": "Women",
     "location": "Greece"
   },
   {
-    "name": "Maria Bekatorou",
-    "image": "assets/maria_bekatorou-tv-women-greece.jpg",
+    "name": "Marina Xypoliti",
+    "image": "assets/marina_xypoliti-tv-women-greece.jpg",
     "category": "tv_women_greece",
     "topic": "Tv",
     "gender": "Women",
     "location": "Greece"
   },
   {
-    "name": "Natalia Germanou",
-    "image": "assets/natalia_germanou-tv-women-greece.jpg",
+    "name": "Evangelia Dassiou",
+    "image": "assets/evangelia_dassiou-tv-women-greece.jpg",
     "category": "tv_women_greece",
     "topic": "Tv",
     "gender": "Women",
     "location": "Greece"
   },
   {
-    "name": "Stamatina Tsimtsili",
-    "image": "assets/stamatina_tsimtsili-tv-women-greece.jpg",
+    "name": "Niki Papatheochari",
+    "image": "assets/niki_papatheochari-tv-women-greece.jpg",
     "category": "tv_women_greece",
     "topic": "Tv",
     "gender": "Women",
     "location": "Greece"
   },
   {
-    "name": "Fai Skorda",
-    "image": "assets/fai_skorda-tv-women-greece.jpg",
+    "name": "Eleni Varkali",
+    "image": "assets/eleni_varkali-tv-women-greece.jpg",
     "category": "tv_women_greece",
     "topic": "Tv",
     "gender": "Women",
     "location": "Greece"
   },
   {
-    "name": "Vicky Kaya",
-    "image": "assets/vicky_kaya-tv-women-greece.jpg",
+    "name": "Elli Kokkinou",
+    "image": "assets/elli_kokkinou-tv-women-greece.jpg",
     "category": "tv_women_greece",
     "topic": "Tv",
     "gender": "Women",
     "location": "Greece"
   },
   {
-    "name": "Iliana Papageorgiou",
-    "image": "assets/iliana_papageorgiou-tv-women-greece.jpg",
+    "name": "Eleni Tsaknou",
+    "image": "assets/eleni_tsaknou-tv-women-greece.jpg",
     "category": "tv_women_greece",
     "topic": "Tv",
     "gender": "Women",
     "location": "Greece"
   },
   {
-    "name": "Eleni Menegaki",
-    "image": "assets/eleni_menegaki-tv-women-greece.jpg",
+    "name": "Eleni Chatzidaki",
+    "image": "assets/eleni_chatzidaki-tv-women-greece.jpg",
     "category": "tv_women_greece",
     "topic": "Tv",
     "gender": "Women",
     "location": "Greece"
   },
   {
-    "name": "Dimitra Makrigianni",
-    "image": "assets/dimitra_makrigianni-tv-women-greece.jpg",
+    "name": "Vicky Stavropoulou",
+    "image": "assets/vicky_stavropoulou-tv-women-greece.jpg",
     "category": "tv_women_greece",
     "topic": "Tv",
     "gender": "Women",
     "location": "Greece"
   },
   {
-    "name": "Despina Vandi",
-    "image": "assets/despina_vandi-tv-women-greece.jpg",
+    "name": "Filareti Komninou",
+    "image": "assets/filareti_komninou-tv-women-greece.jpg",
     "category": "tv_women_greece",
     "topic": "Tv",
     "gender": "Women",
     "location": "Greece"
   },
   {
-    "name": "Katerina Karavatou",
-    "image": "assets/katerina_karavatou-tv-women-greece.jpg",
+    "name": "Elena Tsikitiki",
+    "image": "assets/elena_tsikitiki-tv-women-greece.jpg",
     "category": "tv_women_greece",
     "topic": "Tv",
     "gender": "Women",
     "location": "Greece"
   },
   {
-    "name": "Jenny Balatsinou",
-    "image": "assets/jenny_balatsinou-tv-women-greece.jpg",
+    "name": "Chrysa Dioti",
+    "image": "assets/chrysa_dioti-tv-women-greece.jpg",
     "category": "tv_women_greece",
     "topic": "Tv",
     "gender": "Women",
     "location": "Greece"
   },
   {
-    "name": "Nikoleta Ralli",
-    "image": "assets/nikoleta_ralli-tv-women-greece.jpg",
+    "name": "Vasoula Maroudi",
+    "image": "assets/vasoula_maroudi-tv-women-greece.jpg",
     "category": "tv_women_greece",
     "topic": "Tv",
     "gender": "Women",
     "location": "Greece"
   },
   {
-    "name": "Andriana Paraskevopoulou",
-    "image": "assets/andriana_paraskevopoulou-tv-women-greece.jpg",
+    "name": "Despina Nikolaidi",
+    "image": "assets/despina_nikolaidi-tv-women-greece.jpg",
     "category": "tv_women_greece",
     "topic": "Tv",
     "gender": "Women",
     "location": "Greece"
   },
   {
-    "name": "Timothee Chalamet",
-    "image": "assets/timothee_chalamet-tv-men-international.jpg",
+    "name": "Michael B. Jordan",
+    "image": "assets/michael_b_jordan-tv-men-international.jpg",
     "category": "tv_men_international",
     "topic": "Tv",
     "gender": "Men",
     "location": "International"
   },
   {
-    "name": "Chris Hemsworth",
-    "image": "assets/chris_hemsworth-tv-men-international.jpg",
-    "category": "tv_men_international",
-    "topic": "Tv",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Robert Downey Jr",
-    "image": "assets/robert_downey_jr-tv-men-international.jpg",
-    "category": "tv_men_international",
-    "topic": "Tv",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Keanu Reeves",
-    "image": "assets/keanu_reeves-tv-men-international.jpg",
-    "category": "tv_men_international",
-    "topic": "Tv",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Dwayne Johnson",
-    "image": "assets/dwayne_johnson-tv-men-international.jpg",
-    "category": "tv_men_international",
-    "topic": "Tv",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Tom Holland",
-    "image": "assets/tom_holland-tv-men-international.jpg",
-    "category": "tv_men_international",
-    "topic": "Tv",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Kenneth Branagh",
-    "image": "assets/kenneth_branagh-tv-men-international.jpg",
-    "category": "tv_men_international",
-    "topic": "Tv",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Leonardo DiCaprio",
-    "image": "assets/leonardo_dicaprio-tv-men-international.jpg",
+    "name": "Andrew Garfield",
+    "image": "assets/andrew_garfield-tv-men-international.jpg",
     "category": "tv_men_international",
     "topic": "Tv",
     "gender": "Men",
@@ -792,64 +384,112 @@
     "location": "International"
   },
   {
-    "name": "Ryan Reynolds",
-    "image": "assets/ryan_reynolds-tv-men-international.jpg",
+    "name": "Oscar Isaac",
+    "image": "assets/oscar_isaac-tv-men-international.jpg",
     "category": "tv_men_international",
     "topic": "Tv",
     "gender": "Men",
     "location": "International"
   },
   {
-    "name": "Shah Rukh Khan",
-    "image": "assets/shah_rukh_khan-tv-men-international.jpg",
+    "name": "Kit Harington",
+    "image": "assets/kit_harington-tv-men-international.jpg",
     "category": "tv_men_international",
     "topic": "Tv",
     "gender": "Men",
     "location": "International"
   },
   {
-    "name": "Idris Elba",
-    "image": "assets/idris_elba-tv-men-international.jpg",
+    "name": "James McAvoy",
+    "image": "assets/james_mcavoy-tv-men-international.jpg",
     "category": "tv_men_international",
     "topic": "Tv",
     "gender": "Men",
     "location": "International"
   },
   {
-    "name": "Jacob Elordi",
-    "image": "assets/jacob_elordi-tv-men-international.jpg",
+    "name": "Tom Hardy",
+    "image": "assets/tom_hardy-tv-men-international.jpg",
     "category": "tv_men_international",
     "topic": "Tv",
     "gender": "Men",
     "location": "International"
   },
   {
-    "name": "Jeremy Allen White",
-    "image": "assets/jeremy_allen_white-tv-men-international.jpg",
+    "name": "John Boyega",
+    "image": "assets/john_boyega-tv-men-international.jpg",
     "category": "tv_men_international",
     "topic": "Tv",
     "gender": "Men",
     "location": "International"
   },
   {
-    "name": "Jenna Ortega",
-    "image": "assets/jenna_ortega-tv-men-international.jpg",
+    "name": "Dev Patel",
+    "image": "assets/dev_patel-tv-men-international.jpg",
     "category": "tv_men_international",
     "topic": "Tv",
     "gender": "Men",
     "location": "International"
   },
   {
-    "name": "Zendaya",
-    "image": "assets/zendaya-tv-women-international.jpg",
+    "name": "Joseph Gordon-Levitt",
+    "image": "assets/joseph_gordon_levitt-tv-men-international.jpg",
+    "category": "tv_men_international",
+    "topic": "Tv",
+    "gender": "Men",
+    "location": "International"
+  },
+  {
+    "name": "Cillian Murphy",
+    "image": "assets/cillian_murphy-tv-men-international.jpg",
+    "category": "tv_men_international",
+    "topic": "Tv",
+    "gender": "Men",
+    "location": "International"
+  },
+  {
+    "name": "Sebastian Stan",
+    "image": "assets/sebastian_stan-tv-men-international.jpg",
+    "category": "tv_men_international",
+    "topic": "Tv",
+    "gender": "Men",
+    "location": "International"
+  },
+  {
+    "name": "Chris Evans",
+    "image": "assets/chris_evans-tv-men-international.jpg",
+    "category": "tv_men_international",
+    "topic": "Tv",
+    "gender": "Men",
+    "location": "International"
+  },
+  {
+    "name": "Tom Hiddleston",
+    "image": "assets/tom_hiddleston-tv-men-international.jpg",
+    "category": "tv_men_international",
+    "topic": "Tv",
+    "gender": "Men",
+    "location": "International"
+  },
+  {
+    "name": "Daniel Kaluuya",
+    "image": "assets/daniel_kaluuya-tv-men-international.jpg",
+    "category": "tv_men_international",
+    "topic": "Tv",
+    "gender": "Men",
+    "location": "International"
+  },
+  {
+    "name": "Emma Watson",
+    "image": "assets/emma_watson-tv-women-international.jpg",
     "category": "tv_women_international",
     "topic": "Tv",
     "gender": "Women",
     "location": "International"
   },
   {
-    "name": "Florence Pugh",
-    "image": "assets/florence_pugh-tv-women-international.jpg",
+    "name": "Natalie Portman",
+    "image": "assets/natalie_portman-tv-women-international.jpg",
     "category": "tv_women_international",
     "topic": "Tv",
     "gender": "Women",
@@ -864,14 +504,6 @@
     "location": "International"
   },
   {
-    "name": "Scarlett Johansson",
-    "image": "assets/scarlett_johansson-tv-women-international.jpg",
-    "category": "tv_women_international",
-    "topic": "Tv",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
     "name": "Margot Robbie",
     "image": "assets/margot_robbie-tv-women-international.jpg",
     "category": "tv_women_international",
@@ -880,64 +512,40 @@
     "location": "International"
   },
   {
-    "name": "Jennifer Lawrence",
-    "image": "assets/jennifer_lawrence-tv-women-international.jpg",
+    "name": "Florence Pugh",
+    "image": "assets/florence_pugh-tv-women-international.jpg",
     "category": "tv_women_international",
     "topic": "Tv",
     "gender": "Women",
     "location": "International"
   },
   {
-    "name": "Emma Stone",
-    "image": "assets/emma_stone-tv-women-international.jpg",
+    "name": "Zendaya",
+    "image": "assets/zendaya-tv-women-international.jpg",
     "category": "tv_women_international",
     "topic": "Tv",
     "gender": "Women",
     "location": "International"
   },
   {
-    "name": "Millie Bobby Brown",
-    "image": "assets/millie_bobby_brown-tv-women-international.jpg",
+    "name": "Saoirse Ronan",
+    "image": "assets/saoirse_ronan-tv-women-international.jpg",
     "category": "tv_women_international",
     "topic": "Tv",
     "gender": "Women",
     "location": "International"
   },
   {
-    "name": "Lupita Nyongo",
-    "image": "assets/lupita_nyongo-tv-women-international.jpg",
+    "name": "Jessica Chastain",
+    "image": "assets/jessica_chastain-tv-women-international.jpg",
     "category": "tv_women_international",
     "topic": "Tv",
     "gender": "Women",
     "location": "International"
   },
   {
-    "name": "Priyanka Chopra",
-    "image": "assets/priyanka_chopra-tv-women-international.jpg",
-    "category": "tv_women_international",
-    "topic": "Tv",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Deepika Padukone",
-    "image": "assets/deepika_padukone-tv-women-international.jpg",
-    "category": "tv_women_international",
-    "topic": "Tv",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Ana de Armas",
-    "image": "assets/ana_de_armas-tv-women-international.jpg",
-    "category": "tv_women_international",
-    "topic": "Tv",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Sydney Sweeney",
-    "image": "assets/sydney_sweeney-tv-women-international.jpg",
+    "name": "Rachel Brosnahan",
+    "image": "assets/rachel_brosnahan-tv-women-international.jpg",
     "category": "tv_women_international",
     "topic": "Tv",
     "gender": "Women",
@@ -952,8 +560,40 @@
     "location": "International"
   },
   {
-    "name": "Jenna Ortega",
-    "image": "assets/jenna_ortega-tv-women-international.jpg",
+    "name": "Kerry Washington",
+    "image": "assets/kerry_washington-tv-women-international.jpg",
+    "category": "tv_women_international",
+    "topic": "Tv",
+    "gender": "Women",
+    "location": "International"
+  },
+  {
+    "name": "Lupita Nyong'o",
+    "image": "assets/lupita_nyongo-tv-women-international.jpg",
+    "category": "tv_women_international",
+    "topic": "Tv",
+    "gender": "Women",
+    "location": "International"
+  },
+  {
+    "name": "Maisie Williams",
+    "image": "assets/maisie_williams-tv-women-international.jpg",
+    "category": "tv_women_international",
+    "topic": "Tv",
+    "gender": "Women",
+    "location": "International"
+  },
+  {
+    "name": "Sophie Turner",
+    "image": "assets/sophie_turner-tv-women-international.jpg",
+    "category": "tv_women_international",
+    "topic": "Tv",
+    "gender": "Women",
+    "location": "International"
+  },
+  {
+    "name": "Michaela Coel",
+    "image": "assets/michaela_coel-tv-women-international.jpg",
     "category": "tv_women_international",
     "topic": "Tv",
     "gender": "Women",
@@ -976,14 +616,6 @@
     "location": "Greece"
   },
   {
-    "name": "Trannos",
-    "image": "assets/trannos-trap-music-men-greece.jpg",
-    "category": "trap_music_men_greece",
-    "topic": "Trap Music",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
     "name": "Toquel",
     "image": "assets/toquel-trap-music-men-greece.jpg",
     "category": "trap_music_men_greece",
@@ -992,56 +624,16 @@
     "location": "Greece"
   },
   {
-    "name": "Ivan Greko",
-    "image": "assets/ivan_greko-trap-music-men-greece.jpg",
+    "name": "Κonstantinos Pantelidis",
+    "image": "assets/konstantinos_pantelidis-trap-music-men-greece.jpg",
     "category": "trap_music_men_greece",
     "topic": "Trap Music",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Bloody Hawk",
-    "image": "assets/bloody_hawk-trap-music-men-greece.jpg",
-    "category": "trap_music_men_greece",
-    "topic": "Trap Music",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Sicario",
-    "image": "assets/sicario-trap-music-men-greece.jpg",
-    "category": "trap_music_men_greece",
-    "topic": "Trap Music",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Konstantinos Argyros",
-    "image": "assets/konstantinos_argyros-trap-music-men-greece.jpg",
-    "category": "trap_music_men_greece",
-    "topic": "Trap Music",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Christos Mastoras",
-    "image": "assets/christos_mastoras-trap-music-men-greece.jpg",
-    "category": "trap_music_men_greece",
-    "topic": "Trap Music",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "FY",
-    "image": "assets/fy-trap-music-men-greece.jpg",
-    "category": "trap_music_men_greece",
-    "topic": "Trap Music",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Sin Boy",
-    "image": "assets/sin_boy-trap-music-men-greece.jpg",
+    "name": "Nikos Ganos",
+    "image": "assets/nikos_ganos-trap-music-men-greece.jpg",
     "category": "trap_music_men_greece",
     "topic": "Trap Music",
     "gender": "Men",
@@ -1056,168 +648,80 @@
     "location": "Greece"
   },
   {
-    "name": "Rack",
-    "image": "assets/rack-trap-music-men-greece.jpg",
+    "name": "Sin Boy",
+    "image": "assets/sin_boy-trap-music-men-greece.jpg",
     "category": "trap_music_men_greece",
     "topic": "Trap Music",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "DJ Stephan",
-    "image": "assets/dj_stephan-trap-music-men-greece.jpg",
+    "name": "Dj Pitsi",
+    "image": "assets/dj_pitsi-trap-music-men-greece.jpg",
     "category": "trap_music_men_greece",
     "topic": "Trap Music",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Lil Barty",
-    "image": "assets/lil_barty-trap-music-men-greece.jpg",
+    "name": "DJ Kas",
+    "image": "assets/dj_kas-trap-music-men-greece.jpg",
     "category": "trap_music_men_greece",
     "topic": "Trap Music",
     "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Eleni Foureira",
-    "image": "assets/eleni_foureira-trap-music-women-greece.jpg",
-    "category": "trap_music_women_greece",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Marina Satti",
-    "image": "assets/marina_satti-trap-music-women-greece.jpg",
-    "category": "trap_music_women_greece",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Lila",
-    "image": "assets/lila-trap-music-women-greece.jpg",
-    "category": "trap_music_women_greece",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Elena Paparizou",
-    "image": "assets/elena_paparizou-trap-music-women-greece.jpg",
-    "category": "trap_music_women_greece",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Good Job Nicky",
-    "image": "assets/good_job_nicky-trap-music-women-greece.jpg",
-    "category": "trap_music_women_greece",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Joanne",
-    "image": "assets/joanne-trap-music-women-greece.jpg",
-    "category": "trap_music_women_greece",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Ifigeneia",
-    "image": "assets/ifigeneia-trap-music-women-greece.jpg",
-    "category": "trap_music_women_greece",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Marina Spanou",
-    "image": "assets/marina_spanou-trap-music-women-greece.jpg",
-    "category": "trap_music_women_greece",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Κarma",
-    "image": "assets/karma-trap-music-women-greece.jpg",
-    "category": "trap_music_women_greece",
-    "topic": "Trap Music",
-    "gender": "Women",
     "location": "Greece"
   },
   {
     "name": "Tamta",
-    "image": "assets/tamta-trap-music-women-greece.jpg",
-    "category": "trap_music_women_greece",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Anastasia",
-    "image": "assets/anastasia-trap-music-women-greece.jpg",
-    "category": "trap_music_women_greece",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Demetra",
-    "image": "assets/demetra-trap-music-women-greece.jpg",
-    "category": "trap_music_women_greece",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Despoina Vandi",
-    "image": "assets/despoina_vandi-trap-music-women-greece.jpg",
-    "category": "trap_music_women_greece",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Natasa Theodoridou",
-    "image": "assets/natasa_theodoridou-trap-music-women-greece.jpg",
-    "category": "trap_music_women_greece",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Josephine",
-    "image": "assets/josephine-trap-music-women-greece.jpg",
-    "category": "trap_music_women_greece",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Bad Bunny",
-    "image": "assets/bad_bunny-trap-music-men-international.jpg",
-    "category": "trap_music_men_international",
+    "image": "assets/tamta-trap-music-men-greece.jpg",
+    "category": "trap_music_men_greece",
     "topic": "Trap Music",
     "gender": "Men",
-    "location": "International"
+    "location": "Greece"
   },
   {
-    "name": "The Weeknd",
-    "image": "assets/the_weeknd-trap-music-men-international.jpg",
-    "category": "trap_music_men_international",
+    "name": "Pavlos Pavlidis",
+    "image": "assets/pavlos_pavlidis-trap-music-men-greece.jpg",
+    "category": "trap_music_men_greece",
     "topic": "Trap Music",
     "gender": "Men",
-    "location": "International"
+    "location": "Greece"
   },
   {
-    "name": "Drake",
-    "image": "assets/drake-trap-music-men-international.jpg",
+    "name": "STAVENTO",
+    "image": "assets/stavento-trap-music-men-greece.jpg",
+    "category": "trap_music_men_greece",
+    "topic": "Trap Music",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Nasos",
+    "image": "assets/nasos-trap-music-men-greece.jpg",
+    "category": "trap_music_men_greece",
+    "topic": "Trap Music",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "MC Yinka",
+    "image": "assets/mc_yinka-trap-music-men-greece.jpg",
+    "category": "trap_music_men_greece",
+    "topic": "Trap Music",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Joker",
+    "image": "assets/joker-trap-music-men-greece.jpg",
+    "category": "trap_music_men_greece",
+    "topic": "Trap Music",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Kendrick Lamar",
+    "image": "assets/kendrick_lamar-trap-music-men-international.jpg",
     "category": "trap_music_men_international",
     "topic": "Trap Music",
     "gender": "Men",
@@ -1232,56 +736,8 @@
     "location": "International"
   },
   {
-    "name": "Kendrick Lamar",
-    "image": "assets/kendrick_lamar-trap-music-men-international.jpg",
-    "category": "trap_music_men_international",
-    "topic": "Trap Music",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Post Malone",
-    "image": "assets/post_malone-trap-music-men-international.jpg",
-    "category": "trap_music_men_international",
-    "topic": "Trap Music",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Shawn Mendes",
-    "image": "assets/shawn_mendes-trap-music-men-international.jpg",
-    "category": "trap_music_men_international",
-    "topic": "Trap Music",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Harry Styles",
-    "image": "assets/harry_styles-trap-music-men-international.jpg",
-    "category": "trap_music_men_international",
-    "topic": "Trap Music",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Stormzy",
-    "image": "assets/stormzy-trap-music-men-international.jpg",
-    "category": "trap_music_men_international",
-    "topic": "Trap Music",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Lil Nas X",
-    "image": "assets/lil_nas_x-trap-music-men-international.jpg",
-    "category": "trap_music_men_international",
-    "topic": "Trap Music",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "21 Savage",
-    "image": "assets/21_savage-trap-music-men-international.jpg",
+    "name": "Drake",
+    "image": "assets/drake-trap-music-men-international.jpg",
     "category": "trap_music_men_international",
     "topic": "Trap Music",
     "gender": "Men",
@@ -1296,6 +752,30 @@
     "location": "International"
   },
   {
+    "name": "Post Malone",
+    "image": "assets/post_malone-trap-music-men-international.jpg",
+    "category": "trap_music_men_international",
+    "topic": "Trap Music",
+    "gender": "Men",
+    "location": "International"
+  },
+  {
+    "name": "Young Thug",
+    "image": "assets/young_thug-trap-music-men-international.jpg",
+    "category": "trap_music_men_international",
+    "topic": "Trap Music",
+    "gender": "Men",
+    "location": "International"
+  },
+  {
+    "name": "21 Savage",
+    "image": "assets/21_savage-trap-music-men-international.jpg",
+    "category": "trap_music_men_international",
+    "topic": "Trap Music",
+    "gender": "Men",
+    "location": "International"
+  },
+  {
     "name": "Lil Baby",
     "image": "assets/lil_baby-trap-music-men-international.jpg",
     "category": "trap_music_men_international",
@@ -1304,208 +784,64 @@
     "location": "International"
   },
   {
-    "name": "J Balvin",
-    "image": "assets/j_balvin-trap-music-men-international.jpg",
+    "name": "DaBaby",
+    "image": "assets/dababy-trap-music-men-international.jpg",
     "category": "trap_music_men_international",
     "topic": "Trap Music",
     "gender": "Men",
     "location": "International"
   },
   {
-    "name": "Peso Pluma",
-    "image": "assets/peso_pluma-trap-music-men-international.jpg",
+    "name": "Lil Uzi Vert",
+    "image": "assets/lil_uzi_vert-trap-music-men-international.jpg",
     "category": "trap_music_men_international",
     "topic": "Trap Music",
     "gender": "Men",
     "location": "International"
   },
   {
-    "name": "Taylor Swift",
-    "image": "assets/taylor_swift-trap-music-women-international.jpg",
-    "category": "trap_music_women_international",
+    "name": "Juice WRLD",
+    "image": "assets/juice_wrld-trap-music-men-international.jpg",
+    "category": "trap_music_men_international",
     "topic": "Trap Music",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Beyoncé",
-    "image": "assets/beyonce-trap-music-women-international.jpg",
-    "category": "trap_music_women_international",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Rihanna",
-    "image": "assets/rihanna-trap-music-women-international.jpg",
-    "category": "trap_music_women_international",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Ariana Grande",
-    "image": "assets/ariana_grande-trap-music-women-international.jpg",
-    "category": "trap_music_women_international",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Dua Lipa",
-    "image": "assets/dua_lipa-trap-music-women-international.jpg",
-    "category": "trap_music_women_international",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Billie Eilish",
-    "image": "assets/billie_eilish-trap-music-women-international.jpg",
-    "category": "trap_music_women_international",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Selena Gomez",
-    "image": "assets/selena_gomez-trap-music-women-international.jpg",
-    "category": "trap_music_women_international",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Cardi B",
-    "image": "assets/cardi_b-trap-music-women-international.jpg",
-    "category": "trap_music_women_international",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Megan Thee Stallion",
-    "image": "assets/megan_thee_stallion-trap-music-women-international.jpg",
-    "category": "trap_music_women_international",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Olivia Rodrigo",
-    "image": "assets/olivia_rodrigo-trap-music-women-international.jpg",
-    "category": "trap_music_women_international",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Anitta",
-    "image": "assets/anitta-trap-music-women-international.jpg",
-    "category": "trap_music_women_international",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Ayra Starr",
-    "image": "assets/ayra_starr-trap-music-women-international.jpg",
-    "category": "trap_music_women_international",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Florence Welch",
-    "image": "assets/florence_welch-trap-music-women-international.jpg",
-    "category": "trap_music_women_international",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Janelle Monae",
-    "image": "assets/janelle_monae-trap-music-women-international.jpg",
-    "category": "trap_music_women_international",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Jennie Kim",
-    "image": "assets/jennie_kim-trap-music-women-international.jpg",
-    "category": "trap_music_women_international",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Rosé",
-    "image": "assets/rose-trap-music-women-international.jpg",
-    "category": "trap_music_women_international",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Jisoo",
-    "image": "assets/jisoo-trap-music-women-international.jpg",
-    "category": "trap_music_women_international",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Lisa",
-    "image": "assets/lisa-trap-music-women-international.jpg",
-    "category": "trap_music_women_international",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Ice Spice",
-    "image": "assets/ice_spice-trap-music-women-international.jpg",
-    "category": "trap_music_women_international",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Doja Cat",
-    "image": "assets/doja_cat-trap-music-women-international.jpg",
-    "category": "trap_music_women_international",
-    "topic": "Trap Music",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Alexandros Kopsialis",
-    "image": "assets/alexandros_kopsialis-influencers-men-greece.jpg",
-    "category": "influencers_men_greece",
-    "topic": "Influencers",
     "gender": "Men",
-    "location": "Greece"
+    "location": "International"
   },
   {
-    "name": "Fipster",
-    "image": "assets/fipster-influencers-men-greece.jpg",
-    "category": "influencers_men_greece",
-    "topic": "Influencers",
+    "name": "Kodak Black",
+    "image": "assets/kodak_black-trap-music-men-international.jpg",
+    "category": "trap_music_men_international",
+    "topic": "Trap Music",
     "gender": "Men",
-    "location": "Greece"
+    "location": "International"
+  },
+  {
+    "name": "Medical Mizzy",
+    "image": "assets/medical_mizzy-trap-music-men-international.jpg",
+    "category": "trap_music_men_international",
+    "topic": "Trap Music",
+    "gender": "Men",
+    "location": "International"
+  },
+  {
+    "name": "Pop Smoke",
+    "image": "assets/pop_smoke-trap-music-men-international.jpg",
+    "category": "trap_music_men_international",
+    "topic": "Trap Music",
+    "gender": "Men",
+    "location": "International"
+  },
+  {
+    "name": "Roddy Ricch",
+    "image": "assets/roddy_ricch-trap-music-men-international.jpg",
+    "category": "trap_music_men_international",
+    "topic": "Trap Music",
+    "gender": "Men",
+    "location": "International"
   },
   {
     "name": "Konos",
     "image": "assets/konos-influencers-men-greece.jpg",
-    "category": "influencers_men_greece",
-    "topic": "Influencers",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Christos Raftas",
-    "image": "assets/christos_raftas-influencers-men-greece.jpg",
     "category": "influencers_men_greece",
     "topic": "Influencers",
     "gender": "Men",
@@ -1520,24 +856,8 @@
     "location": "Greece"
   },
   {
-    "name": "2J",
-    "image": "assets/2j-influencers-men-greece.jpg",
-    "category": "influencers_men_greece",
-    "topic": "Influencers",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Jeremy",
-    "image": "assets/jeremy-influencers-men-greece.jpg",
-    "category": "influencers_men_greece",
-    "topic": "Influencers",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Lefteris Garipis",
-    "image": "assets/lefteris_garipis-influencers-men-greece.jpg",
+    "name": "Alexandros Kopsialis",
+    "image": "assets/alexandros_kopsialis-influencers-men-greece.jpg",
     "category": "influencers_men_greece",
     "topic": "Influencers",
     "gender": "Men",
@@ -1552,8 +872,40 @@
     "location": "Greece"
   },
   {
-    "name": "Alexandros Grekos",
-    "image": "assets/alexandros_grekos-influencers-men-greece.jpg",
+    "name": "Fipster",
+    "image": "assets/fipster-influencers-men-greece.jpg",
+    "category": "influencers_men_greece",
+    "topic": "Influencers",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "2J",
+    "image": "assets/2j-influencers-men-greece.jpg",
+    "category": "influencers_men_greece",
+    "topic": "Influencers",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Giorgos Kyzis",
+    "image": "assets/giorgos_kyzis-influencers-men-greece.jpg",
+    "category": "influencers_men_greece",
+    "topic": "Influencers",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Lefteris Garipis",
+    "image": "assets/lefteris_garipis-influencers-men-greece.jpg",
+    "category": "influencers_men_greece",
+    "topic": "Influencers",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Panos Dent",
+    "image": "assets/panos_dent-influencers-men-greece.jpg",
     "category": "influencers_men_greece",
     "topic": "Influencers",
     "gender": "Men",
@@ -1576,24 +928,32 @@
     "location": "Greece"
   },
   {
-    "name": "Giorgos Kyzis",
-    "image": "assets/giorgos_kyzis-influencers-men-greece.jpg",
+    "name": "Dimitris Filippidis",
+    "image": "assets/dimitris_filippidis-influencers-men-greece.jpg",
     "category": "influencers_men_greece",
     "topic": "Influencers",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Kalogirou",
-    "image": "assets/kalogirou-influencers-men-greece.jpg",
+    "name": "Nikos Mylonas",
+    "image": "assets/nikos_mylonas-influencers-men-greece.jpg",
     "category": "influencers_men_greece",
     "topic": "Influencers",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Panos Dent",
-    "image": "assets/panos_dent-influencers-men-greece.jpg",
+    "name": "Alexandros Grekos",
+    "image": "assets/alexandros_grekos-influencers-men-greece.jpg",
+    "category": "influencers_men_greece",
+    "topic": "Influencers",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Giannis Papadopoulos",
+    "image": "assets/giannis_papadopoulos-influencers-men-greece.jpg",
     "category": "influencers_men_greece",
     "topic": "Influencers",
     "gender": "Men",
@@ -1632,64 +992,8 @@
     "location": "Greece"
   },
   {
-    "name": "Athina Oikonomakou",
-    "image": "assets/athina_oikonomakou-influencers-women-greece.jpg",
-    "category": "influencers_women_greece",
-    "topic": "Influencers",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Eleni Menegaki",
-    "image": "assets/eleni_menegaki-influencers-women-greece.jpg",
-    "category": "influencers_women_greece",
-    "topic": "Influencers",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Marianna Grfld",
-    "image": "assets/marianna_grfld-influencers-women-greece.jpg",
-    "category": "influencers_women_greece",
-    "topic": "Influencers",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Katerina Peonidou",
-    "image": "assets/katerina_peonidou-influencers-women-greece.jpg",
-    "category": "influencers_women_greece",
-    "topic": "Influencers",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Konstantina Evripidou",
-    "image": "assets/konstantina_evripidou-influencers-women-greece.jpg",
-    "category": "influencers_women_greece",
-    "topic": "Influencers",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
     "name": "Tamta Kazazian",
     "image": "assets/tamta_kazazian-influencers-women-greece.jpg",
-    "category": "influencers_women_greece",
-    "topic": "Influencers",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Evelin Kazantzoglou",
-    "image": "assets/evelin_kazantzoglou-influencers-women-greece.jpg",
-    "category": "influencers_women_greece",
-    "topic": "Influencers",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Fai Faskou",
-    "image": "assets/fai_faskou-influencers-women-greece.jpg",
     "category": "influencers_women_greece",
     "topic": "Influencers",
     "gender": "Women",
@@ -1704,8 +1008,64 @@
     "location": "Greece"
   },
   {
+    "name": "Evelin Kazantzoglou",
+    "image": "assets/evelin_kazantzoglou-influencers-women-greece.jpg",
+    "category": "influencers_women_greece",
+    "topic": "Influencers",
+    "gender": "Women",
+    "location": "Greece"
+  },
+  {
+    "name": "Eleni Menegaki",
+    "image": "assets/eleni_menegaki-influencers-women-greece.jpg",
+    "category": "influencers_women_greece",
+    "topic": "Influencers",
+    "gender": "Women",
+    "location": "Greece"
+  },
+  {
+    "name": "Athina Oikonomakou",
+    "image": "assets/athina_oikonomakou-influencers-women-greece.jpg",
+    "category": "influencers_women_greece",
+    "topic": "Influencers",
+    "gender": "Women",
+    "location": "Greece"
+  },
+  {
+    "name": "Marianna Grfld",
+    "image": "assets/marianna_grfld-influencers-women-greece.jpg",
+    "category": "influencers_women_greece",
+    "topic": "Influencers",
+    "gender": "Women",
+    "location": "Greece"
+  },
+  {
+    "name": "Fai Faskou",
+    "image": "assets/fai_faskou-influencers-women-greece.jpg",
+    "category": "influencers_women_greece",
+    "topic": "Influencers",
+    "gender": "Women",
+    "location": "Greece"
+  },
+  {
+    "name": "Katerina Peonidou",
+    "image": "assets/katerina_peonidou-influencers-women-greece.jpg",
+    "category": "influencers_women_greece",
+    "topic": "Influencers",
+    "gender": "Women",
+    "location": "Greece"
+  },
+  {
     "name": "Christina Bompa",
     "image": "assets/christina_bompa-influencers-women-greece.jpg",
+    "category": "influencers_women_greece",
+    "topic": "Influencers",
+    "gender": "Women",
+    "location": "Greece"
+  },
+  {
+    "name": "Konstantina Evripidou",
+    "image": "assets/konstantina_evripidou-influencers-women-greece.jpg",
     "category": "influencers_women_greece",
     "topic": "Influencers",
     "gender": "Women",
@@ -1718,22 +1078,6 @@
     "topic": "Influencers",
     "gender": "Women",
     "location": "Greece"
-  },
-  {
-    "name": "Justin Bieber",
-    "image": "assets/justin_bieber-influencers-men-international.jpg",
-    "category": "influencers_men_international",
-    "topic": "Influencers",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "BTS V",
-    "image": "assets/bts_v-influencers-men-international.jpg",
-    "category": "influencers_men_international",
-    "topic": "Influencers",
-    "gender": "Men",
-    "location": "International"
   },
   {
     "name": "MrBeast",
@@ -1800,14 +1144,6 @@
     "location": "International"
   },
   {
-    "name": "Hasbulla",
-    "image": "assets/hasbulla-influencers-men-international.jpg",
-    "category": "influencers_men_international",
-    "topic": "Influencers",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
     "name": "Khaby Lame",
     "image": "assets/khaby_lame-influencers-men-international.jpg",
     "category": "influencers_men_international",
@@ -1824,8 +1160,16 @@
     "location": "International"
   },
   {
-    "name": "The Rock",
-    "image": "assets/the_rock-influencers-men-international.jpg",
+    "name": "Justin Bieber",
+    "image": "assets/justin_bieber-influencers-men-international.jpg",
+    "category": "influencers_men_international",
+    "topic": "Influencers",
+    "gender": "Men",
+    "location": "International"
+  },
+  {
+    "name": "BTS V",
+    "image": "assets/bts_v-influencers-men-international.jpg",
     "category": "influencers_men_international",
     "topic": "Influencers",
     "gender": "Men",
@@ -1834,6 +1178,22 @@
   {
     "name": "Brent Rivera",
     "image": "assets/brent_rivera-influencers-men-international.jpg",
+    "category": "influencers_men_international",
+    "topic": "Influencers",
+    "gender": "Men",
+    "location": "International"
+  },
+  {
+    "name": "David Dobrik",
+    "image": "assets/david_dobrik-influencers-men-international.jpg",
+    "category": "influencers_men_international",
+    "topic": "Influencers",
+    "gender": "Men",
+    "location": "International"
+  },
+  {
+    "name": "Zach King",
+    "image": "assets/zach_king-influencers-men-international.jpg",
     "category": "influencers_men_international",
     "topic": "Influencers",
     "gender": "Men",
@@ -1856,7 +1216,7 @@
     "location": "International"
   },
   {
-    "name": "Charli DAmelio",
+    "name": "Charli D'Amelio",
     "image": "assets/charli_damelio-influencers-women-international.jpg",
     "category": "influencers_women_international",
     "topic": "Influencers",
@@ -1936,7 +1296,7 @@
     "location": "International"
   },
   {
-    "name": "Dixie DAmelio",
+    "name": "Dixie D'Amelio",
     "image": "assets/dixie_damelio-influencers-women-international.jpg",
     "category": "influencers_women_international",
     "topic": "Influencers",
@@ -2000,46 +1360,6 @@
     "location": "Greece"
   },
   {
-    "name": "Kostas Antetokounmpo",
-    "image": "assets/kostas_antetokounmpo-sports-men-greece.jpg",
-    "category": "sports_men_greece",
-    "topic": "Sports",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Thanasis Antetokounmpo",
-    "image": "assets/thanasis_antetokounmpo-sports-men-greece.jpg",
-    "category": "sports_men_greece",
-    "topic": "Sports",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Vasilis Spanoulis",
-    "image": "assets/vasilis_spanoulis-sports-men-greece.jpg",
-    "category": "sports_men_greece",
-    "topic": "Sports",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Kostas Fortounis",
-    "image": "assets/kostas_fortounis-sports-men-greece.jpg",
-    "category": "sports_men_greece",
-    "topic": "Sports",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
-    "name": "Tasos Douvikas",
-    "image": "assets/tasos_douvikas-sports-men-greece.jpg",
-    "category": "sports_men_greece",
-    "topic": "Sports",
-    "gender": "Men",
-    "location": "Greece"
-  },
-  {
     "name": "Dimitris Agravanis",
     "image": "assets/dimitris_agravanis-sports-men-greece.jpg",
     "category": "sports_men_greece",
@@ -2048,164 +1368,76 @@
     "location": "Greece"
   },
   {
-    "name": "Tyler Dorsey",
-    "image": "assets/tyler_dorsey-sports-men-greece.jpg",
+    "name": "Panagiotis Vasilopoulos",
+    "image": "assets/panagiotis_vasilopoulos-sports-men-greece.jpg",
     "category": "sports_men_greece",
     "topic": "Sports",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Giorgos Papagiannis",
-    "image": "assets/giorgos_papagiannis-sports-men-greece.jpg",
+    "name": "Nick Calathes",
+    "image": "assets/nick_calathes-sports-men-greece.jpg",
     "category": "sports_men_greece",
     "topic": "Sports",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Panagiotis Tachtsidis",
-    "image": "assets/panagiotis_tachtsidis-sports-men-greece.jpg",
+    "name": "Sotiris Manolopoulos",
+    "image": "assets/sotiris_manolopoulos-sports-men-greece.jpg",
     "category": "sports_men_greece",
     "topic": "Sports",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Lazaros Rota",
-    "image": "assets/lazaros_rota-sports-men-greece.jpg",
+    "name": "Fotis Kapino",
+    "image": "assets/fotis_kapino-sports-men-greece.jpg",
     "category": "sports_men_greece",
     "topic": "Sports",
     "gender": "Men",
     "location": "Greece"
   },
   {
-    "name": "Maria Sakkari",
-    "image": "assets/maria_sakkari-sports-women-greece.jpg",
-    "category": "sports_women_greece",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Stefania Soula",
-    "image": "assets/stefania_soula-sports-women-greece.jpg",
-    "category": "sports_women_greece",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Voula Papachristou",
-    "image": "assets/voula_papachristou-sports-women-greece.jpg",
-    "category": "sports_women_greece",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Katerina Stefanidi",
-    "image": "assets/katerina_stefanidi-sports-women-greece.jpg",
-    "category": "sports_women_greece",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Anna Korakaki",
-    "image": "assets/anna_korakaki-sports-women-greece.jpg",
-    "category": "sports_women_greece",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Fani Halkia",
-    "image": "assets/fani_halkia-sports-women-greece.jpg",
-    "category": "sports_women_greece",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Katerina Dalaka",
-    "image": "assets/katerina_dalaka-sports-women-greece.jpg",
-    "category": "sports_women_greece",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Despina Papamichail",
-    "image": "assets/despina_papamichail-sports-women-greece.jpg",
-    "category": "sports_women_greece",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Vasiliki Karahaliou",
-    "image": "assets/vasiliki_karahaliou-sports-women-greece.jpg",
-    "category": "sports_women_greece",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Eleni Donta",
-    "image": "assets/eleni_donta-sports-women-greece.jpg",
-    "category": "sports_women_greece",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Kelly Arvaniti",
-    "image": "assets/kelly_arvaniti-sports-women-greece.jpg",
-    "category": "sports_women_greece",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Vasiliki Millousi",
-    "image": "assets/vasiliki_millousi-sports-women-greece.jpg",
-    "category": "sports_women_greece",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Sofia Bekatorou",
-    "image": "assets/sofia_bekatorou-sports-women-greece.jpg",
-    "category": "sports_women_greece",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Georgia Oikonomou",
-    "image": "assets/georgia_oikonomou-sports-women-greece.jpg",
-    "category": "sports_women_greece",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Eleni Fragkaki",
-    "image": "assets/eleni_fragkaki-sports-women-greece.jpg",
-    "category": "sports_women_greece",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "Greece"
-  },
-  {
-    "name": "Cristiano Ronaldo",
-    "image": "assets/cristiano_ronaldo-sports-men-international.jpg",
-    "category": "sports_men_international",
+    "name": "Georgios Tzavellas",
+    "image": "assets/georgios_tzavellas-sports-men-greece.jpg",
+    "category": "sports_men_greece",
     "topic": "Sports",
     "gender": "Men",
-    "location": "International"
+    "location": "Greece"
+  },
+  {
+    "name": "Christian Karembeu",
+    "image": "assets/christian_karembeu-sports-men-greece.jpg",
+    "category": "sports_men_greece",
+    "topic": "Sports",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Georgios Masouras",
+    "image": "assets/georgios_masouras-sports-men-greece.jpg",
+    "category": "sports_men_greece",
+    "topic": "Sports",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Spiros Livathinos",
+    "image": "assets/spiros_livathinos-sports-men-greece.jpg",
+    "category": "sports_men_greece",
+    "topic": "Sports",
+    "gender": "Men",
+    "location": "Greece"
+  },
+  {
+    "name": "Antonis Fotiadis",
+    "image": "assets/antonis_fotiadis-sports-men-greece.jpg",
+    "category": "sports_men_greece",
+    "topic": "Sports",
+    "gender": "Men",
+    "location": "Greece"
   },
   {
     "name": "Lionel Messi",
@@ -2216,40 +1448,8 @@
     "location": "International"
   },
   {
-    "name": "Usain Bolt",
-    "image": "assets/usain_bolt-sports-men-international.jpg",
-    "category": "sports_men_international",
-    "topic": "Sports",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Naomi Osaka # note: moved to women list below if you prefer strict gender split",
-    "image": "assets/naomi_osaka_note_moved_to_women_list_below_if_you_prefer_strict_gender_split-sports-men-international.jpg",
-    "category": "sports_men_international",
-    "topic": "Sports",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Erling Haaland",
-    "image": "assets/erling_haaland-sports-men-international.jpg",
-    "category": "sports_men_international",
-    "topic": "Sports",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Kylian Mbappe",
-    "image": "assets/kylian_mbappe-sports-men-international.jpg",
-    "category": "sports_men_international",
-    "topic": "Sports",
-    "gender": "Men",
-    "location": "International"
-  },
-  {
-    "name": "Neymar Jr",
-    "image": "assets/neymar_jr-sports-men-international.jpg",
+    "name": "Cristiano Ronaldo",
+    "image": "assets/cristiano_ronaldo-sports-men-international.jpg",
     "category": "sports_men_international",
     "topic": "Sports",
     "gender": "Men",
@@ -2272,16 +1472,24 @@
     "location": "International"
   },
   {
-    "name": "Novak Djokovic",
-    "image": "assets/novak_djokovic-sports-men-international.jpg",
+    "name": "Kevin Durant",
+    "image": "assets/kevin_durant-sports-men-international.jpg",
     "category": "sports_men_international",
     "topic": "Sports",
     "gender": "Men",
     "location": "International"
   },
   {
-    "name": "Rafael Nadal",
-    "image": "assets/rafael_nadal-sports-men-international.jpg",
+    "name": "Tom Brady",
+    "image": "assets/tom_brady-sports-men-international.jpg",
+    "category": "sports_men_international",
+    "topic": "Sports",
+    "gender": "Men",
+    "location": "International"
+  },
+  {
+    "name": "Novak Djokovic",
+    "image": "assets/novak_djokovic-sports-men-international.jpg",
     "category": "sports_men_international",
     "topic": "Sports",
     "gender": "Men",
@@ -2296,16 +1504,32 @@
     "location": "International"
   },
   {
-    "name": "Patrick Mahomes",
-    "image": "assets/patrick_mahomes-sports-men-international.jpg",
+    "name": "Usain Bolt",
+    "image": "assets/usain_bolt-sports-men-international.jpg",
     "category": "sports_men_international",
     "topic": "Sports",
     "gender": "Men",
     "location": "International"
   },
   {
-    "name": "Conor McGregor",
-    "image": "assets/conor_mcgregor-sports-men-international.jpg",
+    "name": "Kylian Mbappe",
+    "image": "assets/kylian_mbappe-sports-men-international.jpg",
+    "category": "sports_men_international",
+    "topic": "Sports",
+    "gender": "Men",
+    "location": "International"
+  },
+  {
+    "name": "Erling Haaland",
+    "image": "assets/erling_haaland-sports-men-international.jpg",
+    "category": "sports_men_international",
+    "topic": "Sports",
+    "gender": "Men",
+    "location": "International"
+  },
+  {
+    "name": "Dustin Johnson",
+    "image": "assets/dustin_johnson-sports-men-international.jpg",
     "category": "sports_men_international",
     "topic": "Sports",
     "gender": "Men",
@@ -2320,123 +1544,19 @@
     "location": "International"
   },
   {
-    "name": "Naomi Osaka",
-    "image": "assets/naomi_osaka-sports-women-international.jpg",
-    "category": "sports_women_international",
+    "name": "Conor McGregor",
+    "image": "assets/conor_mcgregor-sports-men-international.jpg",
+    "category": "sports_men_international",
     "topic": "Sports",
-    "gender": "Women",
+    "gender": "Men",
     "location": "International"
   },
   {
-    "name": "Simone Biles",
-    "image": "assets/simone_biles-sports-women-international.jpg",
-    "category": "sports_women_international",
+    "name": "Anthony Joshua",
+    "image": "assets/anthony_joshua-sports-men-international.jpg",
+    "category": "sports_men_international",
     "topic": "Sports",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Coco Gauff",
-    "image": "assets/coco_gauff-sports-women-international.jpg",
-    "category": "sports_women_international",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Iga Swiatek",
-    "image": "assets/iga_swiatek-sports-women-international.jpg",
-    "category": "sports_women_international",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Serena Williams",
-    "image": "assets/serena_williams-sports-women-international.jpg",
-    "category": "sports_women_international",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Alexia Putellas",
-    "image": "assets/alexia_putellas-sports-women-international.jpg",
-    "category": "sports_women_international",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Megan Rapinoe",
-    "image": "assets/megan_rapinoe-sports-women-international.jpg",
-    "category": "sports_women_international",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Katie Ledecky",
-    "image": "assets/katie_ledecky-sports-women-international.jpg",
-    "category": "sports_women_international",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Ronda Rousey",
-    "image": "assets/ronda_rousey-sports-women-international.jpg",
-    "category": "sports_women_international",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Valentina Shevchenko",
-    "image": "assets/valentina_shevchenko-sports-women-international.jpg",
-    "category": "sports_women_international",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Sky Brown",
-    "image": "assets/sky_brown-sports-women-international.jpg",
-    "category": "sports_women_international",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Chloe Kim",
-    "image": "assets/chloe_kim-sports-women-international.jpg",
-    "category": "sports_women_international",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Alyssa Thompson",
-    "image": "assets/alyssa_thompson-sports-women-international.jpg",
-    "category": "sports_women_international",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "Sydney McLaughlin-Levrone",
-    "image": "assets/sydney_mclaughlin_levrone-sports-women-international.jpg",
-    "category": "sports_women_international",
-    "topic": "Sports",
-    "gender": "Women",
-    "location": "International"
-  },
-  {
-    "name": "ShaCarri Richardson",
-    "image": "assets/shacarri_richardson-sports-women-international.jpg",
-    "category": "sports_women_international",
-    "topic": "Sports",
-    "gender": "Women",
+    "gender": "Men",
     "location": "International"
   }
 ]
